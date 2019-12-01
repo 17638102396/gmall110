@@ -1,7 +1,8 @@
 package com.zhiyou.gmall.user.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
+import com.zhiyou.gmall.user.bean.UmsMember;
+import tk.mybatis.mapper.common.Mapper;
 
-@Mapper
-public interface UserMapper {
+public interface UserMapper extends Mapper<UmsMember> {
+
 }
